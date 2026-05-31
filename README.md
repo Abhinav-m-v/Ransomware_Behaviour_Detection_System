@@ -1,8 +1,8 @@
 # Ransomware_Behaviour_Detection_System
 A behaviour-based ransomware detection system that monitors file activities, process behaviour, entropy changes, and honeyfile access to identify ransomware attacks in real time.
-# 🔐 Behaviour-Based Ransomware Detection System
+# 🔐 Ransomware Behaviour Detection System
 
-> A real-time, behaviour-based ransomware detection and response system developed in Python.
+> A real-time, ransomware behaviour detection and response system developed in Python.
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square\&logo=python)
 ![Platform](https://img.shields.io/badge/Platform-Linux-orange?style=flat-square\&logo=linux)
@@ -13,7 +13,7 @@ A behaviour-based ransomware detection system that monitors file activities, pro
 
 # 📖 Overview
 
-Traditional antivirus solutions primarily rely on signature-based detection methods and may fail to identify new or modified ransomware variants. The Behaviour-Based Ransomware Detection System addresses this limitation by monitoring system activities and identifying suspicious behaviour patterns associated with ransomware attacks.
+Traditional antivirus solutions primarily rely on signature-based detection methods and may fail to identify new or modified ransomware variants. The Ransomware Behaviour Detection System addresses this limitation by monitoring system activities and identifying suspicious behaviour patterns associated with ransomware attacks.
 
 The system continuously monitors file operations, process behaviour, entropy levels, and honeyfile interactions in real time. When suspicious activities are detected, a rule-based detection engine calculates a threat score and classifies the system state as Normal, Suspicious, or Ransomware. Real-time alerts are generated and logged for further analysis.
 
